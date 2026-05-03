@@ -24,18 +24,14 @@ The development server runs at `http://localhost:4321` by default.
 
 1. Push your repository to GitHub, GitLab, or Bitbucket
 2. Log in to [Netlify](https://netlify.com) and click "Add new site" > "Import an existing project"
-3. Connect your repository and configure the build settings:
+3. Connect your repository
+4. Configure build settings:
    - **Build command:** `npm run build`
    - **Publish directory:** `dist`
-4. Click "Deploy site"
+5. Click "Deploy site"
 
-Alternatively, you can deploy manually:
-
-```bash
-npm run build
-npx netlify deploy --prod --dir=dist
-```
+Netlify will automatically deploy updates when you push to your main branch.
 
 ## License
 
-This project is available under the MIT License. See the LICENSE file for details.
+MIT License - feel free to use this project as a template for your own portfolio.
